@@ -9,7 +9,5 @@ test = TestLocation(json_data_list)
 for i in range(5):
     test.post_create_new_location(i)
     test.get_info_about_new_location(i)
-    test.del_new_location(i)
-    print("---"*5)
 
 
